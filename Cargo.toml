@@ -1,0 +1,10 @@
+[package]
+name = "rs-frame-extraction"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.25.1"
+ndarray = "0.15.6"
+tokio = {version = "1.38.0", features = ["full"]}
+video-rs = { version = "0.8", features = ["ndarray"] }
